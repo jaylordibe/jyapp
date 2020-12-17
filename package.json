@@ -1,6 +1,6 @@
 {
   "name": "jyapp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript/TypeScript Application Helper",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,5 +27,10 @@
     "jquery": "^3.5.1",
     "luxon": "^1.25.0",
     "vanillatoasts": "^1.4.0"
-  }
+  },
+  "bundledDependencies": [
+    "jquery",
+    "luxon",
+    "vanillatoasts"
+  ]
 }
